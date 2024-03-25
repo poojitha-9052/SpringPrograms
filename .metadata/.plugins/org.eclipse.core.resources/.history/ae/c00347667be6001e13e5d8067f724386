@@ -1,0 +1,18 @@
+package com.sathya.springboot;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// constructor injecting the values
+		Employee employee=new Employee(101,"pooji",657.89);
+		System.out.println(employee);
+		
+		//setters are injecting the value
+		Employee employee1=new Employee();
+		employee1.setEmpId(111);
+		employee1.setEmpName("Poojitha");
+		employee1.setEmpSalary(50000.79);
+		
+	}
+
+}

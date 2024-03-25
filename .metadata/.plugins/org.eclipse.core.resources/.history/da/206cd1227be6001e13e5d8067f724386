@@ -1,0 +1,12 @@
+package com.sathya.springboot;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// constructor injecting the values
+		Employee employee=new Employee(101,"pooji",657.89);
+		System.out.println(employee);
+
+	}
+
+}
